@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #272727;
+    position: fixed;
+}
+
+.navbarList {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 20px 0;
+    gap: 30px;
+}
+
+.navbarItem {
+    margin-right: 10px;
+    /* İstediğiniz boşluğu ayarlayabilirsiniz */
+}
+
+.navbarItem:last-child {
+    margin-right: 0;
+}
+
+.navbarItem a {
+    text-decoration: none;
+    color: lightgrey;
+    /* Link rengini istediğiniz renkle değiştirebilirsiniz */
+}
+
+.navbarItem a:hover {
+    color: #AAA;
+    /* Link üzerine gelindiğinde rengi değiştirebilirsiniz */
+}

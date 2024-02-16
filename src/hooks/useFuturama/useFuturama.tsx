@@ -29,7 +29,6 @@ function fetchQuery<T>(queryKey: string, serviceFunction: ServiceFunction<T>, th
     const query = useQuery<T>({
         queryKey: [queryKey, id],
         queryFn: async ({ signal }) => {
-            console.log(queryKey, id)
             if (!signal) throw new Error('AbortSignal is not available');
             return serviceFunction.call(thisContext, signal, id);
         },

@@ -1,0 +1,31 @@
+// charactercard.module.scss
+
+.character_card {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #333;
+    width: 300px;
+    height: 150px;
+    cursor: pointer;
+
+    img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+
+    .character_details {
+        p {
+            margin: 5px 0;
+        }
+
+        strong {
+            font-weight: bold;
+        }
+    }
+}

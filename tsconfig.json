@@ -25,12 +25,12 @@
     /* Paths */
     "baseUrl": "./src",
     "paths": {
-      "@/*": ["./*"],
       "@Components/*": ["./components/*"],
       "@Redux/*": ["./redux/*"],
       "@Pages/*": ["./pages/*"],
       "@Services/*": ["./services/*"],
       "@Hooks/*": ["./hooks/*"],
+      "@/*": ["./*"],
     }
   },
 "include": ["src/**/*"],
