@@ -1,0 +1,2 @@
+export { default as FuturamaService } from './futuramaService';
+export type { FuturamaCast, FuturamaCharacter, FuturamaEpisode, FuturamaInfo, FuturamaInventoryItem, FuturamaQuestion, IFuturamaService } from './futuramaService.types'
